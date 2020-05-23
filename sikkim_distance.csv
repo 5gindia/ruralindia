@@ -1,0 +1,12 @@
+distance,Number of FPOIs  connected
+<1 KM,11
+<2 KM,14
+1-2 KM,4
+<3 KM,16
+2-3 KM,5
+<4 KM,17
+3-4 KM,4
+>5 KM,9
+5-6 KM,2
+7-10 KM,2
+>10 KM,5
