@@ -30,7 +30,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     ##return('hello')
-    with open('sikkim_gp.html', 'r') as f:
+    with open('sikkim_gf.html', 'r') as f:
         html_string = f.read()
     ##html_string="hello"
     return html_string
