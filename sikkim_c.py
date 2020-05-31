@@ -30,10 +30,10 @@ for i in range(len(dataset)) :
 
 
   
-    folium.marker([dataset.loc[i, "LAT"],dataset.loc[i, "LONG"]],icon=folium.Icon(color='green') 
+    folium.Marker([dataset.loc[i, "LAT"],dataset.loc[i, "LONG"]],icon=folium.Icon(color='green') 
               ).add_to(my_map4) 
   
-    folium.marker([dataset.loc[i, "LAT1"],dataset.loc[i, "LONG1"]],icon=folium.Icon(color='red')
+    folium.Marker([dataset.loc[i, "LAT1"],dataset.loc[i, "LONG1"]],icon=folium.Icon(color='red')
               ).add_to(my_map4) 
   
 # Add a line to the map by using line method 
